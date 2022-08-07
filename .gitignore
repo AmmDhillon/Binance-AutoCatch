@@ -5,6 +5,7 @@ target/
 !**/src/test/**/target/
 /src/main/resources/application.properties
 /src/main/resources/firebase_admin_sdk.json
+/Dockerfile
 
 ### STS ###
 .apt_generated
