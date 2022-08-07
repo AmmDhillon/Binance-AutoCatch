@@ -1,4 +1,4 @@
-#### **A Spring Boot application for automatically fetching the newly listed coin from Binance (within 5-10 seconds of listing) and buying that coin.
+#### A Spring Boot application for automatically fetching the newly listed coin from Binance (within 5-10 seconds of listing) and buying that coin.
 
 <h1 id="license">License :page_facing_up:</h1>
 
