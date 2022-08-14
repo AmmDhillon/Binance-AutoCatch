@@ -1,7 +1,4 @@
-#### A Spring Boot application for automatically fetching the newly listed coin from Binance (within 5-10 seconds of listing) and buying that coin.
-
-<h1 id="license">License :page_facing_up:</h1>
-
+<h1>Binance AutoCatch</h1>
 Nearly 3-4 times a month, <strong>Binance</strong> used to list a new coin or incorporate existing coins into it's collection. Whenever Binance proceeded with incorporation of a coin or a token, that token was bound to gain at least <strong>25%</strong> on it's existing value. I did some research on the previously listed coins and I found that minimum gain was always <strong>25%</strong> and highest gain went beyond <strong>100%</strong>. So, I saw an opportunity. Buying that coin before it was listed on Binance.
 
 But obviously it wasn't so simple. Here are a few reasons why:
@@ -13,7 +10,7 @@ But obviously it wasn't so simple. Here are a few reasons why:
 And after spending a day thinking it through, I realized that it's close to impossible for a human to physically keep up with a random schedule among so many other factors.
 
 So, I decided to automate this process for me. Here is an overview of steps I had to go through to get it done:
-<h5>Tech Stack Used</h5>
+<h1>Tech Stack Used</h1>
 <ul>
  	<li><strong>Linux Server</strong></li>
  	<li><strong>Spring Boot</strong></li>
@@ -23,7 +20,7 @@ So, I decided to automate this process for me. Here is an overview of steps I ha
  	<li><strong>Android Native</strong></li>
  	<li><strong>Git</strong></li>
 </ul>
-<h5>How It Works</h5>
+<h1>How It Works</h1>
 <ol>
  	<li><strong>Binance Scraping:</strong> First, I had to scrape the Binance's announcement page to get the info of newly listed coin. Interval of scraping was 10 seconds (which was changeable from mobile end)</li>
  	<li><strong>Formatting Data: </strong>After fetching the data, I formatted it until I was left with the coin/token symbol and contract address.</li>
@@ -34,6 +31,8 @@ So, I decided to automate this process for me. Here is an overview of steps I ha
 I made an <strong>Android</strong> app to monitor the entire process from start to finish and used <strong>FCM</strong> to stay updated at the mobile end.
 
 Entire process from fetching the newly listed coin to performing a swap, took around <strong>6-15 seconds</strong>. Which was way faster than I was expecting. Buying a currency within the first <strong>20 seconds</strong> of listing was quite decent.
+
+<h1 id="license">License :page_facing_up:</h1>
 
 Copyright 2022 Manpreet Singh
 
